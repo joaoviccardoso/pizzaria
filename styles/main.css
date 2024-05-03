@@ -1,0 +1,66 @@
+:root{
+    --cor-bege:#F2E9BB;
+    --cor-cinza: #262626;
+    --cor-preta: #000;
+    --font-titulo: "Patrick Hand";
+    --font-texto: "Caveat"
+}
+
+.pedidos{
+    margin-top: 2.5rem;
+}
+
+.titulo__principal{
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: var(--font-titulo);
+    text-align: center;
+}
+
+.pizz{
+    background-color: var(--cor-bege);
+    margin: 1rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+}
+
+.link__pizza{
+    display: grid;
+    grid-template-columns: auto auto 6rem;
+    grid-template-rows: auto auto auto;
+    text-decoration: none;
+    align-items: center;
+    column-gap: .5rem;
+    row-gap: .5rem;
+}
+
+.sabor__pizza{
+    grid-area: 1 / 1 / 4 / 2;
+    border-radius: 0.5rem;
+}
+
+.titulo__pizza{
+    grid-area: 1 / 2 / 2 / 4;
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-family: var(--font-titulo);
+    color: var(--cor-preta)
+}
+
+.texto__pizza{
+    grid-area: 2 / 2 / 3 / 3;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Caveat";
+    color: var(--cor-preta);
+}
+
+.valor__pizza{
+    grid-area: 3 / 3 / 4 / 4;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: var(--font-texto);
+    color: var(--cor-preta);
+}
+
+

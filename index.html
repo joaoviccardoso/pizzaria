@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/estilos.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/rodape.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Patrick+Hand&display=swap" rel="stylesheet">
+
+    <title>pizzaria</title>
+
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho__icones">
+            <img src="./img/pizza__logo.png" alt="logo da pizzaria" class="logo" width="60">
+            <h1 class="titulo__cabecalho">Pizzaria</h1>
+        </div>
+        <nav class="navegacao__cabecalho">
+            <a href="aindanao.html" class="carrinho">
+                <img src="./img/carrinho.png" alt="carrinho de compra" width="40">
+            </a>
+            <a href="./index.html" class="carrinho">
+                <img src="./img/house.svg" alt="voltar" width="40">
+            </a> 
+        </nav>   
+    </header>
+
+    <nav id="nevegacao">
+        <ul class="lista__navegacao">
+            <li class="item__navegacao">
+                <a class="pular_navegação" href="#pizza">pizzas</a>
+            </li>
+            <li class="item__navegacao">
+                <a class="pular_navegação" href="#bebidas">Bebidas</a>
+            </li>
+            <li class="item__navegacao">
+                <a class="pular_navegação" href="#porcoes">porções</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="pedidos">
+        <section id="pizza" class="containers">
+            <h1 class="titulo__principal">Pizzas</h1>
+            <div class="pizz">
+                <a href="./aindanao.html" class="link__pizza">
+                    <img src="./img/4queijos.webp" alt="uma pizza de 4 queijos" class="sabor__pizza" width="95">
+                    <h2 class="titulo__pizza">pizza de 4 queijos</h2>
+                    <p class="texto__pizza">com muçarela, provolone, gorgonzola e parmesão ralado</p>
+                    <p class="valor__pizza">R$ 55,90</p>
+                </a>
+            </div>
+
+            <div class="pizz">
+                <a href="./aindanao.html" class="link__pizza">
+                    <img src="./img/pizza pepperoni.jpg" alt="uma pizza de pepperoni" class="sabor__pizza" width="95">
+                    <h2 class="titulo__pizza">pizza de pepperoni</h2>
+                    <p class="texto__pizza">mussarela, calabresa, pepperoni, cebola e molho da casa.</p>
+                    <p class="valor__pizza">R$ 69,90</p>
+                </a>
+            </div>
+
+            <div class="pizz">
+                <a href="./aindanao.html" class="link__pizza">
+                    <img src="./img/pizza de lombo.jpg" alt="uma pizza de lombo" class="sabor__pizza" width="95">
+                    <h2 class="titulo__pizza">lombo aos 3 queijos</h2>
+                    <p class="texto__pizza">mussarela, lombibinho, cheddar e legitimo catupiry</p>
+                    <p class="valor__pizza">R$ 70,99</p>
+                </a>
+            </div>
+
+            <div class="pizz">
+                <a href="./aindanao.html" class="link__pizza">
+                    <img src="./img/pizza franco.webp" alt="uma pizza de franco" class="sabor__pizza" width="95">
+                    <h2 class="titulo__pizza">frango com catupiry</h2>
+                    <p class="texto__pizza">mussarela, frango desfiado e legitimo catupiry</p>
+                    <p class="valor__pizza">R$ 59,90</p>
+                </a>
+            </div>   
+        </section>
+
+        <section id="bebidas"  class="containers">
+            <h1 class="titulo__principal">bebidas</h1>
+            <div class="pizz">
+                <a href="./aindanao.html" class="link__pizza">
+                    <img src="./img/coca__cola.webp" alt="uma pizza de 4 queijos" class="sabor__pizza" width="95">
+                    <h2 class="titulo__pizza">Coca Cola</h2>
+                    <p class="texto__pizza">garrafa de 2L de Coca Cola.</p>
+                    <p class="valor__pizza">R$ 12,90</p>
+                </a>
+            </div> 
+
+            <div class="pizz">
+                <a href="./aindanao.html" class="link__pizza">
+                    <img src="./img/cerveja.jpg" alt="uma pizza de 4 queijos" class="sabor__pizza" width="95">
+                    <h2 class="titulo__pizza">Cerveja budweiser</h2>
+                    <p class="texto__pizza">Cerveja Budweiser 600ml.</p>
+                    <p class="valor__pizza">R$ 7,90</p>
+                </a>
+            </div>
+            
+            <div class="pizz">
+                <a href="./aindanao.html" class="link__pizza">
+                    <img src="./img/suco.jpg" alt="uma pizza de 4 queijos" class="sabor__pizza" width="95">
+                    <h2 class="titulo__pizza">Suco de laranja</h2>
+                    <p class="texto__pizza">Um copo de 500ml de suco.</p>
+                    <p class="valor__pizza">R$ 10,00</p>
+                </a>
+            </div>    
+        </section>
+
+        <section id="porcoes"  class="containers">
+            <h1 class="titulo__principal">Porções</h1>
+            <div class="pizz">
+                <a href="./aindanao.html" class="link__pizza">
+                    <img src="./img/tilapia.jpg" alt="porções de carne" class="sabor__pizza" width="95" height="92">
+                    <h2 class="titulo__pizza">porção de carne</h2>
+                    <p class="texto__pizza">Uma porção de 500g de picanha.</p>
+                    <p class="valor__pizza">R$ 88,00</p>
+                </a>
+            </div> 
+
+            <div class="pizz">
+                <a href="./aindanao.html" class="link__pizza">
+                    <img src="./img/batata.jpg" alt="porção de batata" class="sabor__pizza" width="95">
+                    <h2 class="titulo__pizza">Porção de batata</h2>
+                    <p class="texto__pizza">Uma porção de 600g de batata frita com bacon.</p>
+                    <p class="valor__pizza">R$ 32,00</p>
+                </a>
+            </div> 
+
+            <div class="pizz">
+                <a href="./aindanao.html" class="link__pizza">
+                    <img src="./img/balde-para-frango-frito-14.jpeg" alt="porção de frango" class="sabor__pizza" width="95" height="95">
+                    <h2 class="titulo__pizza">Porção de frango</h2>
+                    <p class="texto__pizza">Uma porção de 500g de frango frito.</p>
+                    <p class="valor__pizza">R$ 35,00</p>
+                </a>
+            </div> 
+        </section>
+    </main>
+
+    <footer class="rodape"> 
+        <h2 class="autor">João Victor</h2>
+        <div class="redes__social">
+            <h2 class="minhas__redes"></h2>
+            <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-da-silva-cardoso-b66315248/" class="link__social"><img src="./img/linkedin.png" alt="linkedin" width="30"></a>
+            <a href="https://www.instagram.com/joao.victorsilva14/" class="link__social"><img src="./img/instagram.png" alt="instagram" width="30"></a>
+        </div>    
+    </footer>
+</body>
+</html>

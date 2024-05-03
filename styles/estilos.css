@@ -1,0 +1,34 @@
+@import url(/styles/header.css);
+@import url(/styles/main.css);
+@import url(/styles/rodape.css);
+
+:root{
+    --cor-bege:#F2E9BB;
+    --cor-preta: #000;
+    --cor-cinza: #262626;
+    --font-titulo: "Patrick Hand";
+    --font-texto: "Caveat"
+}
+
+body {
+    display: grid;
+    grid-area: 
+    "header header"
+    "main main"
+    "footer footer";
+    grid-template-columns: auto, auto;
+    background-color: #F6F5F2;
+}
+
+header .cabecalho{
+    grid-area: header;
+}
+
+main .pedidos{
+    grid-area: main;
+}
+
+footer .rodape{
+    grid-area: footer;
+}
+

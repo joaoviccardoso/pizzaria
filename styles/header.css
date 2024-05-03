@@ -1,0 +1,70 @@
+:root{
+    --cor-bege:#F2E9BB;
+    --cor-preta: #000;
+    --cor-cinza: #262626;
+    --font-titulo: "Patrick Hand";
+    --font-texto: "Caveat"
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--cor-cinza);
+    /*position: fixed;*/
+    width: 100%;
+}
+
+.cabecalho__icones{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.titulo__cabecalho{
+    font-size: 3rem;
+    font-weight: 400;
+    font-family: var(--font-titulo);
+    color:white;
+}
+
+.navegacao__cabecalho{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*barra de navegaçõ*/
+
+#nevegacao{
+    border-bottom: 2px solid var(--cor-cinza);
+}    
+
+.lista__navegacao{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item__navegacao{
+    padding: 0.5rem;
+}
+
+.pular_navegação{
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-family: var(--font-titulo);
+    text-decoration: none;
+}
+
+.aindanao{
+    margin-top: 5rem;
+}
+
+.titulo__aindanao{
+    font-size: 24px;
+    color: #262626;
+    font-family: var(--font-titulo);
+    font-weight: 700;
+    text-align: center;
+}
