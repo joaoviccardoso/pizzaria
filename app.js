@@ -18,3 +18,8 @@ function adicionar() {
     compra.textContent = `R$ ${valorfinal}`
     document.getElementById('valor__compra').value = 0;
 }
+
+function limpar(){
+    let campoPedidos = document.getElementById('produto').innerHTML = '';
+    let campoQt = parseInt(document.getElementById('quantidade').innerHTML = ''); 
+}
