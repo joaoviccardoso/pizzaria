@@ -62,13 +62,17 @@
         
             <section class="formulario__part2"> 
                 <section class="container-flex2">
-                    <button class="botao" onclick="adicionar()" type="button">adicionar</button>
-                    <button class="botao" onclick="limpar()" type="button">limpar</button>
+                    <button onclick="adicionar()" class="botao" type="button">adicionar</button>
+                    <button onclick="limpar()" class="botao">limpar</button>
                 </section>
-                <div class="">
-                    <h3 class="titulo__produto">Seus pedidos:</h3>
-                    <p class="texto__produto" id="pedido"></p>
-                </div>
+                <h3 class="titulo__produto">Seus pedidos:</h3>
+
+                <section class="container_pedido" id="container__item">
+                    <section class="container__itens__pedido">
+                        <span class="texto__produto"></span>  <span class="texto__produto"></span>
+                    </section>
+                </section>
+
                 <h3 class="titulo__produto">Valor total da compra: 0</h3>
                 <section>
 
@@ -76,6 +80,8 @@
             </section>
         </form>
     </section>
+
+    
 
     <footer class="rodape"> 
         <h2 class="autor">João Victor</h2>
@@ -85,5 +91,6 @@
             <a href="https://www.instagram.com/joao.victorsilva14/" class="link__social"><img src="./img/instagram.png" alt="instagram" width="30"></a>
         </div>    
     </footer>
+    <script src="app.js"></script>
 </body>
 </html>
