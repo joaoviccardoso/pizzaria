@@ -85,3 +85,15 @@
 .titulo__produto{
     margin: 0.2rem 0 .3rem 0;
 }
+
+.container__opcoes{
+  width: 23rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mais__escolhidos{
+   display: flex;
+   gap: .5rem;
+   overflow-x: scroll;
+}
