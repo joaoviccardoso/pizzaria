@@ -4,7 +4,13 @@ function adicionar() {
     let produto = document.getElementById('produto').value;
     let nomeProduto = produto.split('-')[0];
     let valorProduto = parseInt(produto.split('R$')[1]);
-    let qtd = parseInt(document.getElementById('quantidade').value); 
+    let qtd = document.getElementById('quantidade').value; 
+
+    if (qtd == '') {
+      alert('Coloque uma quantidade.');
+      return;
+    }
+
 
     let preco = valorProduto * qtd;
     

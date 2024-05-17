@@ -38,7 +38,7 @@
 }
 
 .produto{
-    width: 15rem;
+    width: 50%;
 }
 
 .quantidade{
@@ -72,7 +72,7 @@
     border-radius: 5px;
 
     width: 60%;
-    margin: 1rem 0 0 0 ;
+    margin: 1.3rem 0 0 0 ;
     padding: 0.2rem;
 
     background-color: white;
@@ -86,10 +86,29 @@
     margin: 0.2rem 0 .3rem 0;
 }
 
+.container__enviar{
+    margin: 1.6rem 0 0 0 ;
+    text-align: center;
+}
+
+.botao{
+    width: 30%;
+}
+
+.enviar{
+    margin-top: 1.2rem;
+    padding: .5rem 2rem .5rem 2rem;
+}
+
+.escolhidos{
+    font-size: 1.8rem;
+
+    margin-bottom: 1.5rem;
+}
+
 .container__opcoes{
-  width: 23rem;
-  margin-left: auto;
-  margin-right: auto;
+  width: 23rem;  
+  margin: 2rem auto 2rem auto;
 }
 
 .mais__escolhidos{
