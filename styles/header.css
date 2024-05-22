@@ -55,6 +55,8 @@
     font-weight: 400;
     font-family: var(--font-titulo);
     text-decoration: none;
+
+    color: var(--cor-cinza);
 }
 
 .aindanao{

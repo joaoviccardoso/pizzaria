@@ -26,7 +26,7 @@
 
 .link__pizza{
     display: grid;
-    grid-template-columns: auto auto 6rem;
+    grid-template-columns: 6rem auto 6rem;
     grid-template-rows: auto auto auto;
     text-decoration: none;
     align-items: center;
