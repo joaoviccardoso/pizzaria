@@ -32,6 +32,7 @@
     align-items: center;
     column-gap: .5rem;
     row-gap: .5rem;
+    height: auto;
 }
 
 .sabor__pizza{
