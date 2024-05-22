@@ -11,7 +11,6 @@ function adicionar() {
       return;
     }
 
-
     let preco = valorProduto * qtd;
     
     let carrinho = document.getElementById('container__item');
