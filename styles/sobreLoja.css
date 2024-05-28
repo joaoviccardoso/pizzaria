@@ -47,9 +47,11 @@
 .text__name{
     font-size: 1rem;
     font-weight: 400;
-    font-family: var(--font-texto);
+    font-family: var(--font-titulo);
 
     color: var(--cor-cinza);
+
+    margin: 0 1rem 1rem 1rem;
 }
 
 .sub__title{
@@ -61,4 +63,32 @@
     background-color: var(--cor-cinza);
 
     margin-bottom: 1rem;
+    padding-left: 1rem;
+    height: 2.5rem;
 }
+
+.container_2{
+    display: flex;
+    column-gap: .5rem;
+    align-items: center;
+
+    margin: 1rem;
+}
+
+.text_name2{
+    font-size: 5rem;
+    font-weight: 400;
+    font-family: var(--font-titulo);
+
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    height: 2.5rem;
+}
+
+.text__name3{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: var(--font-titulo);
+}
+
+
