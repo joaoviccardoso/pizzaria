@@ -6,6 +6,38 @@
     --font-texto: "Caveat"
 }
 
+.formulario{
+    display: grid;
+    grid-template-areas:
+    "titulo titulo"
+    "pedido botao"
+    "compra compra";
+}
+
+.titulo__produto{
+    grid-area: titulo;
+}
+
+#container-flex{
+    display: flex;
+    flex-direction: column;
+
+    grid-area: pedido;
+}
+
+#container-flex2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    grid-area: botao;
+}
+
+#resultados{
+    grid-area: compra;
+}
+
+
+
 .conteiner__titulo{
     margin: 1rem 0 0 1rem;
 }
@@ -24,17 +56,6 @@
     font-size: 1.3rem;
     font-weight: 400;
     font-family: var(--font-titulo);
-}
-
-.container-flex{
-    display: flex;
-    justify-content: space-between;
-}
-
-.container-flex2{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 3rem;
 }
 
 .produto{
@@ -57,7 +78,7 @@
     font-family: var(--font-titulo);
 }
 
-.botao, .produto, .quantidade{
+.produto, .quantidade{
     font-size: 1.5rem;
     font-weight: 400;
     font-family: var(--font-titulo);
@@ -84,21 +105,6 @@
 
 .titulo__produto{
     margin: 0.2rem 0 .3rem 0;
-}
-
-.container__enviar{
-    margin: 1.6rem 0 0 0 ;
-    text-align: center;
-}
-
-.botao{
-    width: 30%;
-}
-
-.enviar{
-    margin-top: 1.2rem;
-    padding: .5rem 2rem .5rem 2rem;
-    width: 40%;
 }
 
 .escolhidos{

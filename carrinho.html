@@ -39,7 +39,7 @@
 
         <form class="formulario">
             <label class="titulo__produto">Produtos</label>
-            <div class="container-flex">
+            <div class="container-flex" id="container-flex">
                 <select name="produto" id="produto" class="produto">
                     <option class="titulo__produto" selected disabled value="">pizza</option>
                     <option class="texto__produto" value="pizza de 4 queijos - R$69,00">pizza de 4 queijos - R$59,00</option>
@@ -58,35 +58,31 @@
                     <option class="texto__produto" value=" porção de 500g de frango frito - R$ 35,00">porção de 500g de frango frito - R$ 35,00</option>
                 </select>
 
-                <label class="titulo__produto Qtd">Qtd.
+                <label class="titulo__produto Qtd">Qtd.</label>
                 <input type="number" id="quantidade" class="quantidade" placeholder="100" value="1">
-                </label>
             </div>
         
-            <section class="formulario__part2"> 
-                <section class="container-flex2">
-                    <button onclick="adicionar()" class="botao" type="button">adicionar</button>
-                    <button onclick="limpar()" class="botao">limpar</button>
-                </section>
-
-               
-                <section class="resultados">
-                    <h3 class="titulo__produto">Seus pedidos:</h3>
-
-                    <section class="container_pedido" id="container__item">
-                        <section class="container__itens__pedido">
-                            <span class="texto__produto"></span>  <span class="texto__produto"></span>
-                        </section>
-                    </section>
-    
-                    Valor total da compra: <h3 class="titulo__produto" id="valor__compra">R$0</h3>
-    
-                </section>
+            <section class="container-flex2" id="container-flex2">
+                <button onclick="adicionar()" class="botao" type="button">adicionar</button>
+                <button onclick="limpar()" class="botao">limpar</button>
+                <div class="container__enviar"> 
+                    <button type="button" class="botao enviar">Comprar</button>
+                </div>
             </section>
 
-            <div class="container__enviar"> 
-                <button type="button" class="botao enviar">Enviar</button>
-            </div>
+               
+            <section class="resultados" id="resultados">
+                <h3 class="titulo__produto">Seus pedidos:</h3>
+
+                <section class="container_pedido" id="container__item">
+                    <section class="container__itens__pedido">
+                        <span class="texto__produto"></span>  <span class="texto__produto"></span>
+                    </section>
+                </section>
+    
+                Valor total da compra: <h3 class="titulo__produto" id="valor__compra">R$0</h3>
+    
+            </section>
         </form>
     </section>
 
