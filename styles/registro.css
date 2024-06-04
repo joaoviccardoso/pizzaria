@@ -1,0 +1,51 @@
+:root{
+    --cor-bege:#F2E9BB;
+    --cor-preta: #000;
+    --cor-cinza: #262626;
+    --font-titulo: "Patrick Hand";
+    --font-texto: "Caveat"
+}
+
+.container__login{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+
+    width: 60%;
+    margin: 5rem auto 0 auto;
+    padding: 1rem;
+
+    border: 2px solid var(--cor-cinza);
+    border-radius: 15px;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.login__titulo{
+    align-self: center;
+
+    font-size: 2rem;
+    font-weight: 600;
+
+    text-shadow: 2px 2px 2px;
+}
+
+.container__botao{
+    align-self: center;
+    text-align: center;
+
+    width: 25%;
+    padding:.2rem 0 .2rem 0;
+
+    border: 2px solid var(--cor-cinza);
+    border-radius: 8px;
+    box-shadow: 1px 1px 7px #888888;
+}
+
+.link__obg{
+    text-decoration: none;
+
+    font-family: var(--font-titulo);
+    font-weight: 400;
+
+    color: var(--cor-cinza);
+}
