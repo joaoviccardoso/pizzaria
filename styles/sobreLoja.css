@@ -7,6 +7,10 @@
     --font-texto: "Caveat"
 }
 
+.container__principal{
+    margin-bottom: 4rem;
+}
+
 .container__titulo{
     display: flex;
     gap: 1.5rem;
@@ -89,6 +93,8 @@
     font-size: 1rem;
     font-weight: 400;
     font-family: var(--font-titulo);
+
+    margin-top: .2rem;
 }
 
 
